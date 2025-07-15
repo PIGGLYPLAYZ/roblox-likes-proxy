@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const app = express();
 
 app.get("/likes", async (req, res) => {
-  const universeId = "YOUR_UNIVERSE_ID"; // Replace this
+  const universeId = "79958920552543"; // Replace this
   const url = `https://games.roblox.com/v1/games?universeIds=${universeId}`;
 
   try {
